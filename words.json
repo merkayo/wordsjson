@@ -1,34 +1,1312 @@
 [
+  {"word": "Nestor", "explanation": "Doświadczony, starszy człowiek, autorytet w danej dziedzinie", "example": "Nestor polskiej literatury wygłosił wykład."},
+  {"word": "Alegoria", "explanation": "Obraz lub opowieść mająca symboliczne, ukryte znaczenie", "example": "W tej bajce alegoria dobra i zła jest bardzo wyraźna."},
+  {"word": "Parafraza", "explanation": "Swobodne przeredagowanie tekstu, zachowujące jego sens", "example": "Na lekcji poproszono nas o parafrazę wiersza."},
+  {"word": "Apoteoza", "explanation": "Wywyższenie czegoś do rangi boskiej lub najwyższej", "example": "Jego przemówienie było apoteozą wolności."},
+  {"word": "Peryfraza", "explanation": "Opisowe określenie zastępujące nazwę", "example": "Używał peryfrazy, by uniknąć powtarzania tego samego słowa."},
+  {"word": "Aberracja", "explanation": "Odchylenie od normy, błąd lub zniekształcenie", "example": "Zdjęcie zawiera aberrację chromatyczną."},
+  {"word": "Perorowanie", "explanation": "Długie i nudne przemówienie", "example": "Jego perorowanie na temat polityki znudziło wszystkich."},
+  {"word": "Wierchuszka", "explanation": "Grupa osób na najwyższych stanowiskach", "example": "Wierchuszka partii zebrała się na naradę."},
+  {"word": "Firmament", "explanation": "Niebo, sklepienie niebieskie", "example": "Gwiaździsty firmament zapierał dech w piersiach."},
+  {"word": "Uniwersum", "explanation": "Całość istniejącego świata, wszechświat", "example": "Teorie dotyczące powstania uniwersum fascynują naukowców."},
+  {"word": "Predestynowany", "explanation": "Przeznaczony z góry, zdeterminowany", "example": "Był predestynowany do wielkich czynów."},
+  {"word": "Prominentny", "explanation": "Znaczący, wybitny, ważny", "example": "Był prominentnym politykiem w swoim kraju."},
+  {"word": "Konglomerat", "explanation": "Zespół różnych firm lub elementów połączonych razem", "example": "Firma jest częścią dużego konglomeratu."},
+  {"word": "Kumoterstwo", "explanation": "Załatwianie spraw przez znajomości i układy", "example": "Kumoterstwo w polityce utrudnia sprawiedliwość."},
+  {"word": "Paternalizm", "explanation": "Nadmierna opiekuńczość wobec innych, często z pozycji wyższości", "example": "Paternalizm w relacjach zawodowych bywa nieefektywny."},
+  {"word": "Antagonista", "explanation": "Przeciwnik, osoba przeciwna bohaterowi", "example": "W powieści antagonista ciągle knuje przeciw bohaterowi."},
+  {"word": "Ludwisarz", "explanation": "Osoba zajmująca się wyrobem monet lub odlewaniem metali", "example": "Ludwisarz tworzył piękne dzwony."},
+  {"word": "Nieogledny", "explanation": "Nieposkromiony, trudny do opanowania", "example": "Nieogledny temperament sprawiał mu kłopoty."},
+  {"word": "Lapsus językowy", "explanation": "Błąd popełniony przypadkowo podczas mówienia", "example": "W trakcie przemówienia popełnił lapsus językowy."},
+  {"word": "Dyletanctwo", "explanation": "Brak profesjonalizmu, amatorskie podejście", "example": "Jego praca była przejawem dyletanctwa."},
+  {"word": "Eksrementy", "explanation": "Odchody, wydaliny", "example": "W laboratorium analizowano eksrementy zwierząt."},
+  {"word": "Plebejski", "explanation": "Związany z niższymi warstwami społecznymi", "example": "Jego zachowanie było bardzo plebejskie."},
+  {"word": "Ascetyzm", "explanation": "Surowy tryb życia, rezygnacja z przyjemności", "example": "Asceta żył w całkowitej skromności."},
+  {"word": "Nebulium", "explanation": "Hypotetyczny pierwiastek chemiczny, nieistniejący", "example": "Nebulium było kiedyś uważane za nowy pierwiastek."},
+  {"word": "Układ inercjalny", "explanation": "Układ odniesienia, w którym obowiązuje pierwsza zasada dynamiki", "example": "Eksperyment przeprowadzono w układzie inercjalnym."},
+  {"word": "Bunczuczny", "explanation": "Agresywny, wyzywający", "example": "Jego bunczuczny ton zaskoczył wszystkich."},
+  {"word": "Egzaltacja", "explanation": "Wzburzenie emocjonalne, uniesienie", "example": "W jego głosie czuć było egzaltację."},
+  {"word": "Zmitygować", "explanation": "Złagodzić, uspokoić", "example": "Trudną sytuację udało się zmitygować rozmową."},
+  {"word": "Zachnąć", "explanation": "Nabrać ochoty lub zapału", "example": "Zachnął się do nauki języków."},
+  {"word": "Tuza", "explanation": "Wybitna, znana postać", "example": "Był tuzą literatury współczesnej."},
+  {"word": "Matuzalem", "explanation": "Bardzo stary człowiek", "example": "Ten dąb jest prawdziwym matuzalemem wśród drzew."},
+  {"word": "Arboretum", "explanation": "Ogród botaniczny z kolekcją drzew i krzewów", "example": "Spacerowaliśmy po arboretum pełnym egzotycznych roślin."},
+  {"word": "Populizm", "explanation": "Polityka odwołująca się do emocji i potrzeb „zwykłych ludzi”", "example": "Populizm często upraszcza złożone problemy."},
+  {"word": "Anturaz", "explanation": "Towarzystwo, otoczenie kogoś", "example": "Przybył na imprezę ze swoim anturazem."},
+  {"word": "Nihilizm", "explanation": "Pogląd negujący wartości i sens życia", "example": "Nihilizm był tematem wielu filozoficznych debat."},
+  {"word": "Dyskurs", "explanation": "Wymiana myśli lub wypowiedzi na jakiś temat", "example": "W dyskursie politycznym często brakuje konkretów."},
+  {"word": "Krzywa Gaussa", "explanation": "Krzywa przedstawiająca rozkład normalny w statystyce", "example": "Wyniki badania układają się w krzywą Gaussa."},
+  {"word": "Pietyzm", "explanation": "Czcigodne, pełne szacunku podejście do czegoś", "example": "Z wielkim pietyzmem odnosił się do rodzinnych tradycji."},
+  {"word": "Atawizm", "explanation": "Powrót cech przodków w organizmach lub zachowaniu", "example": "W jego cechach widać atawizm po dawnych pokoleniach."},
+  {"word": "Przybytek", "explanation": "Miejsce święte lub ważne", "example": "Katedra była przybytkiem modlitwy i zadumy."},
+  {"word": "Inklinacja", "explanation": "Skłonność lub tendencja do czegoś", "example": "Ma inklinację do nauk ścisłych."},
+  {"word": "Egalitarny", "explanation": "Zakładający równość społeczną", "example": "Ich podejście było wyraźnie egalitarne."},
+  {"word": "Dystymia","explanation": "Przewlekły, łagodny stan obniżonego nastroju", "example": "Dystymia utrudniała mu codzienne funkcjonowanie."},
+  {"word":"Dyktat","explanation":"narzucenie decyzji lub warunków bez dyskusji","example":"Dyktat zwycięzców wymusił zmiany."},
+  {"word": "Imperatyw", "explanation": "Nakaz, konieczność", "example": "Bezpieczeństwo było imperatywem działania."},
+  {"word": "Interlokutor", "explanation": "Osoba biorąca udział w rozmowie", "example": "Podczas debaty interlokutorzy przedstawiali różne stanowiska."},
+  {"word": "Macierz Eisenhowera", "explanation": "Narzędzie do zarządzania czasem, klasyfikujące zadania według ważności i pilności", "example": "Użyłem macierzy Eisenhowera, aby lepiej organizować pracę."},
+  {"word": "Osobliwy", "explanation": "Dziwny, niezwykły, wyjątkowy", "example": "Miał osobliwy sposób bycia, który przyciągał uwagę."},
+  {"word": "Aberracja", "explanation": "Odchylenie od normy, zniekształcenie", "example": "Zdjęcie było pełne aberracji optycznych."},
+  {"word": "Agitacja", "explanation": "Aktywne nakłanianie do jakiegoś działania lub poglądu", "example": "Agitacja polityczna nasiliła się przed wyborami."},
+  {"word": "Parestezje", "explanation": "Nieprawidłowe odczucia na skórze, np. mrowienie", "example": "Po długim ucisku czułem parestezje w ręce."},
+  {"word": "Epigon", "explanation": "Naśladowca, ktoś bez własnej oryginalności", "example": "Był epigonem wielkich mistrzów literatury."},
+  {"word": "Parytet", "explanation": "Równość w liczbie lub proporcji, np. między płciami", "example": "Wprowadzono parytet płci w zarządzie firmy."},
+  {"word": "Perorować", "explanation": "Mówić długo i często nudno", "example": "Nauczyciel perorował o historii Polski."},
+  {"word": "Exodus", "explanation": "Masowe opuszczanie miejsca przez ludzi", "example": "Po katastrofie nastąpił exodus mieszkańców miasta."},
+  {"word": "Nonszalancja", "explanation": "Lekceważący, swobodny sposób bycia", "example": "Jego nonszalancja irytowała współpracowników."},
+  {"word": "Antagonizm", "explanation": "Wrogość, sprzeczność interesów lub poglądów", "example": "Między nimi panował silny antagonizm."},
+  {"word": "Kostucha", "explanation": "Potoczne określenie śmierci", "example": "Kostucha przyszła niespodziewanie."},
+  {"word": "Konstatacja", "explanation": "Stwierdzenie faktu", "example": "Konstatacja wyników badania była jednoznaczna."},
+  {"word": "Imperializm", "explanation": "Polityka państwa dążąca do rozszerzania wpływów i terytoriów", "example": "Imperializm XIX wieku wywarł wpływ na całą Europę."},
+  {"word": "Parias", "explanation": "Osoba wykluczona społecznie, wyrzutek", "example": "Był pariasem w swojej wiosce."},
+  {"word": "Blichtr", "explanation": "Pozorna wspaniałość, przepych", "example": "Pałac pełen był blichtru, ale brakowało mu duszy."},
+  {"word": "Oportunizm", "explanation": "Dostosowywanie się do sytuacji dla własnej korzyści", "example": "Oportunizm polityków często budzi krytykę."},
+  {"word": "Dylemat wagonika", "explanation": "Sytuacja etyczna wymagająca wyboru między złym a gorszym", "example": "Dylemat wagonika jest często omawiany w filozofii moralnej."},
+  {"word": "Wiedza domenowa", "explanation": "Specjalistyczna wiedza z konkretnej dziedziny", "example": "Wiedza domenowa jest niezbędna w pracy inżyniera."},
+  {"word": "Indoktrynacja", "explanation": "Wpajanie określonych poglądów bez możliwości krytyki", "example": "Indoktrynacja w szkołach jest nieetyczna."},
+  {"word": "Kosmopolityzm", "explanation": "Postawa otwartości na świat, przekraczająca granice narodowe", "example": "Kosmopolityzm sprzyja zrozumieniu międzykulturowemu."},
+  {"word": "Awangarda", "explanation": "Grupa nowatorskich twórców lub ruch społeczny", "example": "Awangarda artystyczna wprowadziła wiele innowacji."},
+  {"word": "Bohema", "explanation": "Środowisko artystów i intelektualistów żyjących poza normami", "example": "Bohema warszawska słynęła z niekonwencjonalnego stylu życia."},
+  {"word": "Nestor", "explanation": "Starszy, doświadczony i ceniony ekspert", "example": "Nestor teatru wygłosił przemówienie."},
+  {"word": "Dysfagia", "explanation": "Trudności w przełykaniu", "example": "Pacjent cierpiał na dysfagię po udarze."},
+  {"word": "Lameta", "explanation": "Osoba nieszczęśliwa, nieudacznik", "example": "Na imprezie był tylko lametą, która nic nie potrafiła."},
+  {"word": "Nemezis", "explanation": "Nieunikniona kara lub przeciwnik", "example": "Nemezis bohatera zawsze go dopada."},
+  {"word": "Nirwana", "explanation": "Stan całkowitego spokoju i wyzwolenia", "example": "Medytacja pomogła mu osiągnąć nirwanę."},
+  {"word": "Asceta", "explanation": "Osoba prowadząca surowy, wyrzeczeniowy tryb życia", "example": "Asceta odrzucał wszelkie przyjemności materialne."},
+  {"word": "Spolegliwy", "explanation": "Godny zaufania, odpowiedzialny", "example": "Był spolegliwym pracownikiem."},
+  {"word": "Konformista", "explanation": "Osoba dostosowująca się do norm i oczekiwań", "example": "Konformista unikał konfliktów za wszelką cenę."},
+  {"word": "Oportunista", "explanation": "Osoba wykorzystująca sytuację dla własnej korzyści", "example": "Oportunista zmieniał poglądy zależnie od okoliczności."},
+  {"word": "Preludium", "explanation": "Wstęp, zapowiedź czegoś", "example": "Ten koncert był preludium do głównego wydarzenia."},
+  {"word": "Uwertura", "explanation": "Muzyczny wstęp do opery lub spektaklu", "example": "Uwertura rozpoczęła przedstawienie."},
+  {"word": "Dekadentyzm", "explanation": "Ruch artystyczny podkreślający zepsucie i upadek wartości", "example": "Dekadentyzm wyrażał pesymizm i zmęczenie kulturą."},
+  {"word": "Fluktuacja", "explanation": "Wahania, zmiany w czasie", "example": "Fluktuacje cen na rynku są częste."},
+  {"word": "Interlokutor", "explanation": "Osoba biorąca udział w rozmowie", "example": "Interlokutorzy szybko znaleźli wspólny język."},
+  {"word": "Trawestować", "explanation": "Przerabiać tekst lub dzieło, często z humorem lub krytyką", "example": "Autor trawestował znane powiedzenie."},
+  {"word": "Aberracyjne", "explanation": "Odnoszące się do aberracji, czyli odchylenia od normy", "example": "Jego zachowanie było aberracyjne i nieprzewidywalne."},
+  {"word": "Immanentny", "explanation": "Wrodzony, nierozerwalnie związany z czymś", "example": "Wolność jest immanentna naturze człowieka."},
+  {"word": "Impasy", "explanation": "Sytuacje bez wyjścia, martwy punkt", "example": "Negocjacje utknęły w impasie."},
+  {"word": "Dr Sebi Heal", "explanation": "Odwołanie do Dr Sebi, znanego z alternatywnych metod leczenia", "example": "Zainteresował się metodami Dr Sebi Heal."},
+  {"word": "Populizm", "explanation": "Polityka opierająca się na apelowaniu do uczuć i prostych rozwiązań", "example": "Populizm często wykorzystuje obietnice bez pokrycia."},
+  {"word": "Hegemon", "explanation": "Państwo lub grupa dominująca nad innymi", "example": "Stany Zjednoczone były hegemonem światowym po II wojnie."},
+  {"word": "Koniunktura", "explanation": "Stan gospodarki lub rynku, sprzyjający określonym zjawiskom", "example": "Koniunktura na rynku nieruchomości jest bardzo dobra."},
+  {"word": "Wyemancypować", "explanation": "Uwolnić się spod czyjejś kontroli lub zależności", "example": "Kobiety walczyły, by się wyemancypować."},
+  {"word": "Bunczuczny", "explanation": "Zachowujący się buntowniczo, zuchwale", "example": "Jego bunczuczne zachowanie zaskoczyło nauczyciela."},
+  {"word": "Antynomia", "explanation": "Sprzeczność między dwoma twierdzeniami lub prawami", "example": "Antynomia w filozofii pokazuje granice rozumu."},
+  {"word": "Dekadentyzm", "explanation": "Ruch kulturalny wyrażający dekadencję i pesymizm", "example": "Dekadentyzm manifestował się w literaturze końca XIX wieku."},
+  {"word": "Kintsugi", "explanation": "Japońska sztuka naprawy ceramiki złotem, podkreślająca piękno niedoskonałości", "example": "Kintsugi uczy akceptacji i szacunku dla historii przedmiotów."},
+  {"word": "Fiodor Dostojewski", "explanation": "Rosyjski pisarz, autor m.in. \"Zbrodni i kary\"", "example": "Fiodor Dostojewski to jeden z największych klasyków literatury."},
+  {"word": "Lolita Nabokov", "explanation": "Kontrowersyjna powieść Vladimira Nabokova", "example": "Lolita Nabokov wzbudzała wiele dyskusji."},
+  {"word": "Traszki Pendomorficzne", "explanation": "Termin biologiczny, odnosi się do zmienności gatunku traszek", "example": "Traszki pendomorficzne występują w różnych środowiskach."},
+  {"word": "Ablucja", "explanation": "Obrzęd oczyszczenia, zwłaszcza mycie ciała lub rąk", "example": "Ablucja była ważnym rytuałem w wielu religiach."},
+  {"word": "Represja", "explanation": "Stosowanie przymusu i przemocy wobec przeciwników", "example": "Reżim stosował represje wobec opozycji."},
+  {"word": "Suterena", "explanation": "Podpiwniczone pomieszczenie, często użytkowane jako mieszkanie", "example": "Mieszkanie w suterenie było tanie, ale ciemne."},
+  {"word": "Dysydent", "explanation": "Osoba sprzeciwiająca się oficjalnej polityce lub ideologii", "example": "Dysydent walczył o prawa człowieka."},
+  {"word": "Chochosztapler", "explanation": "Osoba udająca kogoś, kim nie jest; oszust", "example": "Okazał się być chochosztaplerem bez żadnych kwalifikacji."},
+  {"word": "Antagonizm", "explanation": "Sprzeczność interesów lub wrogość między stronami", "example": "Antagonizm między grupami narastał z dnia na dzień."},
+  {"word": "Dzięcioł Zielony", "explanation": "Ptak z rodziny dzięciołowatych o zielonym upierzeniu", "example": "Dzięcioł zielony często odwiedza lasy w Polsce."},
+  {"word": "Miriady", "explanation": "Bardzo duża liczba", "example": "Na niebie można zobaczyć miriady gwiazd."},
+  {"word": "Nihilista", "explanation": "Osoba odrzucająca wszelkie wartości i normy", "example": "Nihilista nie wierzył w sens życia."},
+  {"word": "Dziecko Indygo", "explanation": "Termin z parapsychologii oznaczający dziecko o szczególnych cechach", "example": "Niektórzy wierzą w istnienie dzieci indygo."},
+  {"word": "Biorezonans", "explanation": "Metoda diagnostyczna i terapeutyczna wykorzystująca pola elektromagnetyczne", "example": "Biorezonans jest kontrowersyjną metodą leczenia."},
+  {"word": "Ajurweda", "explanation": "Tradycyjna indyjska medycyna holistyczna", "example": "Ajurweda skupia się na równowadze ciała i ducha."},
+  {"word": "Plugawy", "explanation": "Brudny, nieprzyzwoity", "example": "Jego zachowanie było plugawsze niż ktokolwiek przypuszczał."},
+  {"word": "Elizeum", "explanation": "W mitologii greckiej miejsce szczęśliwe po śmierci", "example": "Marzył o życiu jak w Elizeum."},
+  {"word": "Biohacking", "explanation": "Próby modyfikowania i optymalizacji funkcji biologicznych organizmu", "example": "Biohacking stał się popularny wśród entuzjastów zdrowia."},
+  {"word": "Kundalini", "explanation": "Energia duchowa uważana w tradycji indyjskiej za uśpioną w ciele", "example": "Praktyki jogi mają na celu przebudzenie kundalini."},
+  {"word": "Extravaganza", "explanation": "Wystawne, często przesadzone widowisko", "example": "Bal był prawdziwą extravaganzą pełną przepychu."},
+  {"word": "Merkantylny", "explanation": "Związany z handlem i zyskiem materialnym", "example": "Jego podejście było bardzo merkantylne."},
+  {"word": "Aluwia", "explanation": "Osady rzeczne naniesione przez wodę", "example": "Aluwia są bardzo żyzne i dobre dla rolnictwa."},
+  {"word": "Imperator", "explanation": "Władca cesarstwa, zwłaszcza w starożytnym Rzymie", "example": "Imperator rządził rozległym terytorium."},
+  {"word": "Dygot", "explanation": "Drżenie, drganie ciała", "example": "Po zimnie miał dygot całego ciała."},
+  {"word": "Apokryfy", "explanation": "Teksty o niepewnym autorstwie lub autentyczności, często religijne", "example": "Apokryfy nie zostały włączone do kanonu Biblii."},
+  {"word": "Eskapizm", "explanation": "Ucieczka od rzeczywistości, często w świat fantazji", "example": "Czytanie książek to jego sposób na eskapizm."},
+  {"word": "Populista", "explanation": "Polityk wykorzystujący hasła i emocje masowe dla zdobycia poparcia", "example": "Populista obiecywał szybkie i proste rozwiązania problemów."},
+  {"word": "Intrarny", "explanation": "Termin rzadki, może oznaczać coś wewnętrznego lub lokalnego", "example": "Analizował intrarne uwarunkowania społeczności."},
+  {"word": "Parytet", "explanation": "Równość reprezentacji, udziału lub wartości", "example": "W parytecie płci dąży się do równej liczby kobiet i mężczyzn."},
+  {"word": "Dezynwoltura", "explanation": "Beztroska, swoboda w zachowaniu", "example": "Jej dezynwoltura zaskoczyła wszystkich na spotkaniu."},
+  {"word": "Wiktuały", "explanation": "Produkty spożywcze, żywność", "example": "Zabrał wiktuały na wycieczkę w góry."},
+  {"word": "Palisada", "explanation": "Ochronne ogrodzenie z wbitych w ziemię pali", "example": "Wieś otoczono solidną palisadą."},
+  {"word": "Utytłać", "explanation": "Brudzić coś, zwłaszcza błotem lub inną substancją", "example": "Dzieci utytłały się błotem po zabawie."},
+ {"word": "Aberracja", "explanation": "Odchylenie od normy, błąd optyczny lub moralny", "example": "Jego pomysł był aberracją zdrowego rozsądku."},
+  {"word": "Prominentny", "explanation": "Znaczący, wybitny, dobrze widoczny w danej dziedzinie", "example": "Prominentny naukowiec wygłosił wykład na konferencji."},
+  {"word": "Post mortem", "explanation": "Po śmierci", "example": "Sekcja post mortem ujawniła przyczynę zgonu."},
+  {"word": "Nobliwy", "explanation": "Wytworny, elegancki, pełen godności", "example": "Nobliwy dżentelmen zawsze zachowywał się z klasą."},
+  {"word": "Enklawa", "explanation": "Terytorium otoczone terytorium innego państwa", "example": "Państwo miało w swoim obszarze małą enklawę."},
+  {"word": "Kontrybucja", "explanation": "Opłata nałożona na państwo pokonane w wojnie", "example": "Po wojnie musieli zapłacić kontrybucję zwycięzcom."},
+  {"word": "Frukt", "explanation": "Owoc (w znaczeniu dosłownym lub przenośnym)", "example": "Praca jest fruktem jego wysiłków."},
+  {"word": "Nihilizm", "explanation": "Pogląd negujący istnienie wartości i sensu życia", "example": "Nihilizm może prowadzić do poczucia beznadziei."},
+  {"word": "Jowialny", "explanation": "Wesoły, przyjazny, pogodny", "example": "Był jowialnym gospodarzem, zawsze uśmiechniętym."},
+  {"word": "Deprecjonować", "explanation": "Umniejszać wartość, krytykować", "example": "Nie powinieneś deprecjonować czyjejś pracy."},
+  {"word": "Niefrasobliwy", "explanation": "Beztroski, nieostrożny", "example": "Niefrasobliwy kierowca spowodował wypadek."},
+  {"word": "Maksyma", "explanation": "Zwięzłe, ogólnie przyjęte zdanie lub zasada", "example": "Maksyma 'czas to pieniądz' jest powszechnie znana."},
+  {"word": "Merkantylny", "explanation": "Związany z dążeniem do zysku materialnego", "example": "Jego podejście było zbyt merkantylne."},
+  {"word": "Aporia", "explanation": "Filozoficzny problem bez oczywistego rozwiązania", "example": "Debata zakończyła się w aporii."},
+  {"word": "Paraoksyzm", "explanation": "Nagłe pogorszenie stanu zdrowia lub nasilenie objawów", "example": "Pacjent doznał paraoksyzmu bólu."},
+  {"word": "Transcendencja", "explanation": "Przekraczanie granic doświadczenia lub rzeczywistości", "example": "Transcendencja jest ważna w wielu religiach."},
+  {"word": "Arbitr", "explanation": "Sędzia lub osoba rozstrzygająca spory", "example": "Arbitr podjął ostateczną decyzję."},
+  {"word": "Arbitralnie", "explanation": "Dowolnie, bez uzasadnienia, według własnego widzimisię", "example": "Decyzja została podjęta arbitralnie."},
+  {"word": "Paradygmat", "explanation": "Zespół założeń i wzorców w nauce lub myśli", "example": "Zmiana paradygmatu zmienia sposób myślenia."},
+  {"word": "Koniunkturalizm", "explanation": "Dostosowywanie się do aktualnej sytuacji dla korzyści własnych", "example": "Koniunkturalizm jest krytykowany jako brak zasad."},
+  {"word": "Immersja", "explanation": "Zanurzenie się całkowite w jakimś doświadczeniu", "example": "Immersja w wirtualnej rzeczywistości była pełna."},
+  {"word": "Konfuzja", "explanation": "Zamieszanie, brak jasności", "example": "Po nagłej zmianie zasad zapanowała konfuzja."},
+  {"word": "Defetyzm", "explanation": "Postawa poddania się, brak wiary w sukces", "example": "Defetyzm nie prowadzi do niczego dobrego."},
+  {"word": "Dystopia", "explanation": "Przeciwieństwo utopii – wyobrażenie świata negatywnego, opresyjnego", "example": "Książka opisuje dystopię przyszłości."},
+  {"word": "Deterioracja", "explanation": "Pogorszenie stanu czegoś", "example": "Deterioracja zdrowia pacjenta była szybka."},
+  {"word": "Agitator", "explanation": "Osoba nakłaniająca do działania, zwykle politycznego", "example": "Agitator nawoływał do protestów."},
+  {"word": "Światowid", "explanation": "Starożytny słowiański posąg bóstwa o wielu twarzach", "example": "Światowid symbolizował wiele aspektów życia."},
+  {"word": "Eskapizm", "explanation": "Ucieczka od rzeczywistości w świat fantazji lub rozrywki", "example": "Film był jego sposobem na eskapizm."},
+  {"word": "Dyferencjal", "explanation": "Różniczka w matematyce lub specjalistyczne urządzenie", "example": "Dyferencjal w samochodzie pozwala na różnicę prędkości kół."},
+  {"word": "Ortoreksja", "explanation": "Zaburzenie polegające na obsesji zdrowego odżywiania", "example": "Ortoreksja może prowadzić do niedożywienia."},
+  {"word": "Masoneria", "explanation": "Tajna organizacja zrzeszająca ludzi o wspólnych celach moralnych i społecznych", "example": "Masoneria ma bogatą historię i wiele rytuałów."},
+  {"word": "Biorytm", "explanation": "Regularne zmiany biologiczne zachodzące w organizmach żywych", "example": "Biorytmy wpływają na naszą energię i samopoczucie."},
+  {"word": "Rubikon", "explanation": "Punkt bez odwrotu, decyzja ostateczna", "example": "Przekroczył rubikon, decydując się na zmianę kariery."},
+  {"word": "Konstatować", "explanation": "Stwierdzać, zauważać", "example": "Konstatował, że sytuacja się pogorszyła."},
+  {"word": "Zaciętrzewiony", "explanation": "Uparty, zawzięty", "example": "Był zaciętrzewiony w swoim stanowisku."},
+  {"word": "Fantasmagoria", "explanation": "Seria nierealnych, fantastycznych obrazów lub zdarzeń", "example": "Jego sen był pełen fantasmagorii."},
+  {"word": "Homer", "explanation": "Starogrecki poeta, autor Iliady i Odysei", "example": "Homer jest uznawany za ojca literatury zachodniej."},
+  {"word": "Ekscentryczny", "explanation": "Osoba lub zachowanie odbiegające od normy, dziwaczne", "example": "Ekscentryczny artysta wzbudzał kontrowersje."},
+  {"word": "Stochastyczny", "explanation": "Losowy, oparty na prawdopodobieństwie", "example": "Proces stochastyczny jest nieprzewidywalny."},
+  {"word": "Liczba zespolona", "explanation": "Liczba składająca się z części rzeczywistej i urojonej", "example": "W matematyce liczby zespolone są bardzo ważne."},
+  {"word": "Złota liczba", "explanation": "Stała matematyczna o wartości około 1.618, symbol harmonii", "example": "Złota liczba pojawia się w sztuce i przyrodzie."},
+  {"word": "Fraktal", "explanation": "Obiekt geometryczny o samopodobnej strukturze na różnych skalach", "example": "Fraktale fascynują matematyków i artystów."},
+  {"word": "Opieszałość", "explanation": "Zwolnienie działania, ociąganie się", "example": "Opieszałość w działaniu może kosztować wiele."},
+  {"word": "Platoniczny", "explanation": "Dotyczący idei Platona lub miłości bez aspektu fizycznego", "example": "Ich związek był platoniczny."},
+  {"word": "Epikurejczyk", "explanation": "Zwolennik filozofii Epikura, ceniący przyjemność i spokój", "example": "Epikurejczyk dążył do życia w harmonii."},
+  {"word": "Katatonia", "explanation": "Stan psychiczny charakteryzujący się sztywnością ciała i brakiem reakcji", "example": "Pacjent miał epizod katatonii."},
+  {"word": "Biofeedback", "explanation": "Metoda samoregulacji organizmu poprzez informacje zwrotne o procesach fizjologicznych", "example": "Biofeedback pomaga w redukcji stresu."},
+  {"word": "Biorezonans", "explanation": "Metoda terapeutyczna wykorzystująca rezonans fal elektromagnetycznych", "example": "Biorezonans jest stosowany w medycynie alternatywnej."},
+  {"word": "Makiaweliczny", "explanation": "Cyniczny, bezwzględny, gotowy do manipulacji dla osiągnięcia celów", "example": "Jego makiaweliczna strategia budziła niechęć."},
+  {"word": "Murmurando", "explanation": "Gra muzyczna polegająca na bardzo cichym, szeptanym śpiewie", "example": "W utworze zastosowano technikę murmurando."},
+  {"word": "Purytański", "explanation": "Surowy, moralistyczny, o rygorystycznych zasadach", "example": "Jego purytańskie podejście do życia było ograniczające."},
+  {"word": "Anachroniczny", "explanation": "Niepasujący do swojego czasu, przestarzały", "example": "Jego poglądy były anachroniczne."},
+  {"word": "Antycypujący", "explanation": "Przewidujący, wyprzedzający wydarzenia", "example": "Antycypujący ruchy przeciwnika dały mu przewagę."},
+  {"word": "Dogmat", "explanation": "Niepodważalna prawda, zasada przyjęta bez dowodu", "example": "W religii dogmaty mają ogromne znaczenie."},
+  {"word": "Apostazja", "explanation": "Porzucenie religii lub przekonań", "example": "Apostazja była surowo potępiana przez wspólnotę."},
+  {"word": "Pryncypialny", "explanation": "Związany z zasadami, nieugięty w wartościach", "example": "Był pryncypialnym obrońcą praw człowieka."},
+  {"word": "Egzegeza", "explanation": "Wykładnia i interpretacja tekstów, szczególnie religijnych", "example": "Egzegeza Biblii wymagała głębokiej wiedzy."},
+  {"word": "Kuriozum", "explanation": "Rzecz lub zdarzenie dziwaczne, nietypowe", "example": "To muzeum pełne jest różnych kuriozów."},
+  {"word": "Antycypować", "explanation": "Przewidywać coś, działać wcześniej", "example": "Starał się antycypować możliwe zagrożenia."},
+  {"word": "Fantazmat", "explanation": "Wytwór wyobraźni, złudzenie", "example": "Jego wizje były tylko fantazmatami."},
+  {"word": "Opus magnum", "explanation": "Najważniejsze dzieło w twórczości artysty lub pisarza", "example": "Jego opus magnum to powieść, która zmieniła literaturę."},
+  {"word": "Archaiczny", "explanation": "Starożytny, przestarzały, używany dawniej", "example": "Archaiczny język może być trudny do zrozumienia."},
+  {"word": "Granda", "explanation": "Głośny skandal lub awantura", "example": "W firmie wybuchła granda po ujawnieniu afery."},
+  {"word": "Erystyka", "explanation": "Sztuka prowadzenia sporów i dyskusji, często z użyciem argumentów chwytliwych, nie zawsze prawdziwych", "example": "Erystyka pomagała mu wygrywać debaty."},
+  {"word": "Koniunkcja", "explanation": "Połączenie, złączenie dwóch elementów", "example": "Koniunkcja planet jest rzadkim zjawiskiem astronomicznym."},
+  {"word": "Jednakowoż", "explanation": "Jednakże, jednak", "example": "Zgodził się na warunki, jednakowoż z pewnymi zastrzeżeniami."},
+  {"word": "Monumentalny", "explanation": "O wielkich rozmiarach, budzący podziw", "example": "Monumentalny pomnik stanął na rynku."},
+  {"word": "Majestatyczny", "explanation": "Dostojny, imponujący", "example": "Majestatyczny widok zapierał dech w piersiach."},
+  {"word": "Emisariusz", "explanation": "Posłaniec lub przedstawiciel wysłany z misją", "example": "Był emisariuszem króla na dworze sąsiedniego państwa."},
+  {"word": "Atypowy", "explanation": "Niezwykły, nietypowy", "example": "To był atypowy przypadek medyczny."},
+  {"word": "Transgresja", "explanation": "Przekroczenie granic, naruszenie norm", "example": "Transgresja w sztuce może być formą buntu."},
+ {"word": "Epifania", "explanation": "Nagłe olśnienie, zrozumienie istoty czegoś", "example": "Podczas spaceru doznał epifanii dotyczącej swojego życia."},
+  {"word": "Koncyliacyjny", "explanation": "Skłonny do zgody, pojednawczy", "example": "Przyjął koncyliacyjne stanowisko w sprawie konfliktu."},
+  {"word": "Agregować", "explanation": "Łączyć w całość, zbierać elementy w jedną strukturę", "example": "System potrafi agregować dane z wielu źródeł."},
+  {"word": "Anachronizm", "explanation": "Coś niepasującego do danej epoki; element z innego czasu", "example": "Nowoczesny telefon w średniowiecznym filmie to anachronizm."},
+  {"word": "Kamień pobierczy", "explanation": "Mineralny osad tworzący się na zębach — zwapniała płytka nazębna", "example": "Dentysta usunął jej kamień pobierczy."},
+  {"word": "Platoniczna miłość", "explanation": "Miłość idealna, pozbawiona wymiaru fizycznego", "example": "Łączyła ich jedynie platoniczna miłość."},
+  {"word": "Eros", "explanation": "Miłość zmysłowa, namiętne pożądanie", "example": "W ich relacji dominował eros."},
+  {"word": "Redundantny", "explanation": "Zbędny, powtarzający się, nadmiarowy", "example": "Ten argument jest redundantny i niczego nie wnosi."},
+  {"word": "Kanclerz", "explanation": "Wysoki urzędnik państwowy lub kościelny; w niektórych krajach szef rządu", "example": "Kanclerz ogłosił nowe reformy gospodarcze."},
+  {"word": "Lapsus językowy", "explanation": "Przejęzyczenie, błąd w wypowiedzi", "example": "Podczas przemówienia popełnił drobny lapsus językowy."},
+  {"word": "Guwernantka", "explanation": "Osoba ucząca i wychowująca cudze dzieci w domu", "example": "Rodzina zatrudniła guwernantkę do edukacji córki."},
+  {"word": "Fortunny", "explanation": "Pomyślny, szczęśliwy, trafny", "example": "To był fortunny wybór."},
+  {"word": "Rozrzewienie", "explanation": "Uczucie czułego wzruszenia, sentymentalny nastrój", "example": "Z rozrzewieniem wspominała dawne czasy."},
+  {"word": "Omnipotencja", "explanation": "Wszechmoc, nieograniczona władza", "example": "Mitologiczni bogowie byli postrzegani jako istoty o omnipotencji."},
+  {"word": "Dywersant", "explanation": "Osoba dokonująca sabotażu lub działań podkopujących przeciwnika", "example": "Dywersant uszkodził linie zaopatrzeniowe wroga."},
+  {"word": "Fluktuować", "explanation": "Zmieniać się, wahać w pewnym zakresie", "example": "Ceny paliw fluktuują z tygodnia na tydzień."},
+  {"word": "Jowialny", "explanation": "Wesoły, serdeczny, rubaszny", "example": "Był człowiekiem jowialnym i łatwo nawiązywał kontakty."},
+  {"word": "Nieprzejednanie", "explanation": "Stan nieustępliwości, twarde trwanie przy swoim", "example": "Z nieprzejednaniem odrzucił wszystkie propozycje kompromisu."},
+  {"word": "Zacietrzewienie", "explanation": "Stan nadmiernego uniesienia, zaślepienia emocjami", "example": "W zacietrzewieniu nie chciał słuchać żadnych argumentów."},
+  {"word": "Zblazowany", "explanation": "Znudzony, zobojętniały, zniesmaczony życiem", "example": "Patrzył na świat zblazowanym wzrokiem."},
+  {"word": "Kabotyn", "explanation": "Osoba przesadnie afiszująca się, udająca kogoś ważniejszego", "example": "Wszyscy mieli go za kabotyna."},
+  {"word": "Efekt Pigmaliona", "explanation": "Zjawisko, w którym oczekiwania wpływają na wyniki lub zachowanie osoby", "example": "Nauczyciel, wierząc w ucznia, wywołał efekt Pigmaliona."},
+  {"word": "Swołocz", "explanation": "Obraźliwe określenie ludzi uważanych za podłych lub prymitywnych", "example": "Nazwano ich swołoczą za ich brutalne zachowanie."},
+  {"word": "Krzepiące", "explanation": "Dodające sił, podnoszące na duchu", "example": "Jego słowa były wyjątkowo krzepiące."},
+  {"word": "Począć", "explanation": "Zacząć coś lub spłodzić dziecko — zależnie od kontekstu", "example": "Postanowił począć nowy projekt."},
+  {"word": "Odrzec", "explanation": "Odpowiedzieć, rzec", "example": "„Nie zgadzam się” — odrzekł stanowczo."},
+  {"word": "Wyrzec", "explanation": "Powiedzieć coś (archaicznie) lub zrezygnować z czegoś (wyrzec się)", "example": "Nie zdołał wyrzec ani słowa."},
+
+  {"word": "Splendor", "explanation": "Blask, wspaniałość, prestiż", "example": "Pałac emanuje splendor."},
+{"word": "Percepcja", "explanation": "Proces odbierania i interpretacji bodźców zmysłowych", "example": "Percepcja kolorów różni się u różnych osób."},
+{"word": "Legitymizować", "explanation": "Uznawać coś za prawomocne lub słuszne", "example": "Władza musi być legitymizowana przez obywateli."},
+{"word": "Aura", "explanation": "Niewidzialne pole otaczające człowieka lub miejsce, często kojarzone z energią", "example": "Miejsce miało tajemniczą aurę."},
+{"word": "Ekliptyka", "explanation": "Płaszczyzna orbity Ziemi wokół Słońca", "example": "Ekliptyka jest podstawą astronomicznych obliczeń."},
+{"word": "Kryptonim", "explanation": "Ukryta nazwa lub szyfr", "example": "Operacja miała kryptonim 'Orzeł'."},
+{"word": "Pragmatyczny", "explanation": "Skoncentrowany na praktycznych aspektach, realistyczny", "example": "Jego podejście było bardzo pragmatyczne."},
+  {
+    "word": "aporia",
+    "explanation": "stan trudności lub wątpliwości w rozumowaniu, problem nie do rozwiązania",
+    "example": "Filozofowie często dyskutują nad aporiami w klasycznych tekstach."
+  },
+  {
+    "word": "paraoksyzm",
+    "explanation": "nagły, silny atak choroby lub objawów",
+    "example": "Pacjent doznał paraoksyzmu kaszlu w nocy."
+  },
+  {
+    "word": "transcendencja",
+    "explanation": "przekraczanie granic doświadczenia lub rzeczywistości",
+    "example": "Religia często mówi o transcendencji ludzkiego życia."
+  },
+  {
+    "word": "arbitr",
+    "explanation": "osoba rozstrzygająca spory, arbiter",
+    "example": "Sędzia pełnił rolę arbitra podczas negocjacji."
+  },
+  {
+    "word": "arbitralnie",
+    "explanation": "w sposób dowolny, nieuzasadniony, bez reguł",
+    "example": "Decyzja została podjęta arbitralnie, bez konsultacji z zespołem."
+  },
+  {
+    "word": "paradygmat",
+    "explanation": "wzorzec, model myślenia lub działania",
+    "example": "W nauce zmiana paradygmatu może zrewolucjonizować dziedzinę."
+  },
+  {
+    "word": "koniunkturalizm",
+    "explanation": "dostosowywanie się do chwilowej sytuacji dla korzyści własnych",
+    "example": "Polityk był oskarżany o koniunkturalizm, bo zmieniał poglądy dla poparcia."
+  },
+  {
+    "word": "immersja",
+    "explanation": "całkowite zanurzenie się w czymś, szczególnie w doświadczeniu",
+    "example": "Gra VR zapewnia pełną immersję w wirtualnym świecie."
+  },
+  {
+    "word": "konfuzja",
+    "explanation": "zamieszanie, dezorientacja",
+    "example": "W sali zapanowała konfuzja po nagłym wyłączeniu prądu."
+  },
+  {
+    "word": "defetyzm",
+    "explanation": "postawa rezygnacji, poddawania się",
+    "example": "Jego defetyzm przeszkadzał w realizacji planów."
+  },
+    {
+    "word": "dystopia",
+    "explanation": "przeciwieństwo utopii; wyimaginowane społeczeństwo o negatywnych cechach, często opresyjne i zdominowane przez przemoc",
+    "example": "W literaturze często pojawia się obraz dystopii jako ostrzeżenie przed zagrożeniami przyszłości."
+  },
+  {
+    "word": "deterioracja",
+    "explanation": "pogorszenie się stanu czegoś",
+    "example": "Deterioracja zdrowia pacjenta wymagała natychmiastowej interwencji."
+  },
+  {
+    "word": "agitator",
+    "explanation": "osoba wzniecająca nastroje społeczne, często polityczne",
+    "example": "Agitator nawoływał do protestów podczas wiecu."
+  },
+  {
+    "word": "światowid",
+    "explanation": "postać z mitologii słowiańskiej; bóstwo o czterech twarzach",
+    "example": "W muzeum można zobaczyć rzeźbę przedstawiającą Światowida."
+  },
+  {
+  "word": "szafarz",
+  "explanation": "osoba, która zarządza, rozdaje lub dysponuje czymś (np. sakramentami w kościele)",
+  "example": "Szafarz udzielił wiernym komunii świętej."
+},
+{
+  "word": "szambelan",
+  "explanation": "wysoki urzędnik dworski odpowiedzialny za sprawy dworu i bliski kontakt z władcą",
+  "example": "Król powierzył szambelanowi przygotowanie uroczystości."
+},
+{
+  "word": "dygnitarz",
+  "explanation": "osoba piastująca wysokie stanowisko urzędowe lub państwowe",
+  "example": "Na przyjęciu pojawiło się wielu dygnitarzy z różnych krajów."
+},
+{
+  "word": "hipergamia",
+  "explanation": "dążenie do zawierania związków z osobą o wyższym statusie społecznym lub majątkowym",
+  "example": "Socjolog opisał zjawisko hipergamii w kontekście wyborów małżeńskich."
+},
+{
+  "word": "ekspansja",
+  "explanation": "rozszerzanie wpływów, działalności, terytorium lub zasięgu",
+  "example": "Firma planuje ekspansję na rynki zagraniczne."
+},
+{
+  "word": "jowialny",
+  "explanation": "wesoły, dobroduszny, pogodny w obejściu",
+  "example": "Jowialny gospodarz rozbawiał gości przez całą kolację."
+},
+{
+  "word": "do imentu",
+  "explanation": "w całości, całkowicie, bez reszty (potoczne)",
+  "example": "Był przekonany do imentu o swojej racji."
+},
+{
+  "word": "errata",
+  "explanation": "wykaz błędów i ich poprawek dołączany do książki lub publikacji",
+  "example": "Wydawnictwo opublikowało erratę do najnowszego podręcznika."
+},
+
+  {
+    "word": "eskapizm",
+    "explanation": "ucieczka od rzeczywistości w świat fantazji lub rozrywki",
+    "example": "Książki fantasy to dla niego forma eskapizmu od codziennych problemów."
+  },
+  {
+    "word": "dyferencjał",
+    "explanation": "w mechanice: przekładnia umożliwiająca różnicę prędkości obrotowej między osiami",
+    "example": "Dyferencjał samochodu pozwala na lepsze pokonywanie zakrętów."
+  },
+  {
+    "word": "ortoreksja",
+    "explanation": "obsesja na punkcie zdrowego odżywiania się",
+    "example": "Ortoreksja może prowadzić do poważnych problemów zdrowotnych."
+  },
+  {
+    "word": "masoneria",
+    "explanation": "tajne stowarzyszenie o charakterze inicjacyjnym i filantropijnym",
+    "example": "Masoneria wzbudzała wiele kontrowersji i teorii spiskowych."
+  },
+  {
+    "word": "biorytm",
+    "explanation": "rytmiczne zmiany w organizmie żywym, wpływające na funkcjonowanie",
+    "example": "Zaburzenia biorytmu mogą prowadzić do zmęczenia i rozkojarzenia."
+  },
+  {
+    "word": "rubikon",
+    "explanation": "punkt bez powrotu; dosłownie rzeka w Italii, przekroczenie której oznaczało decyzję nieodwracalną",
+    "example": "Podjęcie tej decyzji to jak przekroczenie Rubikonu."
+  },
+  {
+    "word": "konstatować",
+    "explanation": "stwierdzać coś oficjalnie lub z całą pewnością",
+    "example": "Konstatował, że wynik eksperymentu jest zgodny z przewidywaniami."
+  },
+  {
+    "word": "zaciętrzewiony",
+    "explanation": "uparty, zawzięty w swoim zdaniu lub postępowaniu",
+    "example": "Był zaciętrzewiony w swoich przekonaniach i nie chciał ich zmienić."
+  },
+  {
+    "word": "fantasmagoria",
+    "explanation": "zjawisko iluzoryczne, często pełne fantastycznych wizji",
+    "example": "Jego opowieści przypominały fantasmagorię pełną dziwnych stworzeń."
+  },
+  {
+    "word": "Homer",
+    "explanation": "starożytny grecki poeta, autor „Iliady” i „Odysei”",
+    "example": "Homer jest uważany za jednego z największych twórców literatury antycznej."
+  },
+  {
+    "word": "ekscentryczny",
+    "explanation": "osoba lub zachowanie wyróżniające się nietypowością lub dziwactwem",
+    "example": "Ekscentryczny artysta nosił zawsze jaskrawe ubrania."
+  },
+  {
+    "word": "stochastyczny",
+    "explanation": "związany z przypadkowością, losowością",
+    "example": "Model stochastyczny pomaga przewidywać zmienne zdarzenia ekonomiczne."
+  },
+  {
+    "word": "liczba zespolona",
+    "explanation": "liczba składająca się z części rzeczywistej i urojonej",
+    "example": "W matematyce liczby zespolone są kluczowe w analizie funkcji."
+  },
+  {
+    "word": "złota liczba",
+    "explanation": "stosunek proporcji uważany za estetycznie doskonały, około 1,618",
+    "example": "Architekci często korzystają ze złotej liczby w swoich projektach."
+  },
+  {
+    "word": "fraktal",
+    "explanation": "złożona figura geometryczna, samopodobna w różnych skalach",
+    "example": "Fraktale występują zarówno w matematyce, jak i w przyrodzie."
+  },
+  {
+    "word": "opieszałość",
+    "explanation": "zwlekanie, brak szybkości w działaniu",
+    "example": "Opieszałość urzędników spowodowała opóźnienie w realizacji projektu."
+  },
+  {
+    "word": "platoniczny",
+    "explanation": "dotyczący miłości duchowej, bez aspektu fizycznego",
+    "example": "Ich relacja była platoniczna i oparta na głębokim szacunku."
+  },
+  {
+    "word": "epikurejczyk",
+    "explanation": "zwolennik filozofii Epikura, ceniący przyjemności życia",
+    "example": "Epikurejczyk dążył do unikania bólu i szukania radości."
+  },
+  {
+    "word": "katatonia",
+    "explanation": "stan psychiczny charakteryzujący się bezruchiem lub sztywnym zachowaniem",
+    "example": "Pacjent z katatonią nie reagował na bodźce zewnętrzne."
+  },
+  {
+    "word": "biofeedback",
+    "explanation": "technika umożliwiająca świadomą kontrolę procesów fizjologicznych",
+    "example": "Biofeedback pomaga pacjentom w kontroli stresu i bólu."
+  },
+  {
+    "word": "biorezonansbioenergoterapia",
+    "explanation": "alternatywna metoda leczenia oparta na wibracjach energetycznych organizmu",
+    "example": "Niektórzy pacjenci korzystają z biorezonansbioenergoterapii w celach leczniczych."
+  },
+  {
+    "word": "makiaweliczny",
+    "explanation": "charakterystyczny dla Machiavellego, czyli przebiegły, pozbawiony skrupułów",
+    "example": "Jego makiaweliczne plany doprowadziły do sukcesu politycznego."
+  },
+  {
+    "word": "murmurando",
+    "explanation": "szeptanie, mówienie cicho, ledwo słyszalnie",
+    "example": "W pokoju panowało murmando, nikt nie chciał zakłócać ciszy."
+  },
+  {
+    "word": "purytański",
+    "explanation": "charakterystyczny dla surowych, moralistycznych zasad",
+    "example": "Purytańskie podejście do życia wykluczało wszelkie przyjemności."
+  },
+  {
+    "word": "anachroniczny",
+    "explanation": "niepasujący do danej epoki, przestarzały",
+    "example": "Jego poglądy wydawały się anachroniczne w dzisiejszym społeczeństwie."
+  },
+  {
+    "word": "antycypujący",
+    "explanation": "przewidujący, wyprzedzający wydarzenia",
+    "example": "Antycypujący ruchy przeciwnika dały mu przewagę w grze."
+  },
+   {
+    "word": "dogmat",
+    "explanation": "niepodważalna zasada lub prawda przyjmowana bez dyskusji",
+    "example": "W religii pewne dogmaty są fundamentem wiary."
+  },
+  {
+    "word": "apostazja",
+    "explanation": "publiczne odrzucenie swojej religii lub wiary",
+    "example": "Jego apostazja wywołała duże kontrowersje w społeczności."
+  },
+  {
+    "word": "pryncypialny",
+    "explanation": "postępujący zgodnie z własnymi zasadami moralnymi lub etycznymi",
+    "example": "Był pryncypialnym człowiekiem, który nie ulegał presji."
+  },
+  {
+    "word": "egzegeza",
+    "explanation": "interpretacja i objaśnianie tekstów, zwłaszcza religijnych",
+    "example": "Egzegeza Biblii wymagała od niego dużej wiedzy teologicznej."
+  },
+  {
+    "word": "kuriozum",
+    "explanation": "rzadkie, dziwne lub zabawne zdarzenie albo rzecz",
+    "example": "To kuriozum stało się tematem rozmów w całym mieście."
+  },
+  {
+    "word": "antycypować",
+    "explanation": "przewidywać, uprzedzać coś",
+    "example": "Starał się antycypować reakcję rynku na nowe przepisy."
+  },
+  {
+    "word": "fantazmat",
+    "explanation": "wytwór wyobraźni, nierealny obraz lub marzenie",
+    "example": "Jego fantazmaty o wielkiej sławie nigdy się nie spełniły."
+  },
+  {
+    "word": "opus magnum",
+    "explanation": "najważniejsze dzieło artysty lub pisarza",
+    "example": "Ten film był jego opus magnum i zdobył wiele nagród."
+  },
+  {
+    "word": "archaiczny",
+    "explanation": "staroświecki, przestarzały, należący do dawnych czasów",
+    "example": "Archaiczne zwyczaje zanikły wraz z upływem lat."
+  },
+  {
+    "word": "granda",
+    "explanation": "publiczny skandal lub awantura",
+    "example": "Podczas konferencji wybuchła granda między politykami."
+  },
+   {
+    "word": "liryczny",
+    "explanation": "odnoszący się do uczuć i emocji, poetycki",
+    "example": "Jego liryczne wiersze poruszały serca czytelników."
+  },
+  {
+    "word": "erystyka",
+    "explanation": "sztuka prowadzenia sporu i przekonywania",
+    "example": "W debatach używał erystyki, by wygrać każdą dyskusję."
+  },
+  {
+    "word": "koniunkcja",
+    "explanation": "łączenie, złączenie dwóch rzeczy lub zjawisk",
+    "example": "Koniunkcja planet była widoczna gołym okiem."
+  },
+  {
+    "word": "jednakowoż",
+    "explanation": "jednak, mimo to",
+    "example": "Był zmęczony, jednakowoż kontynuował pracę."
+  },
+  {
+    "word": "monumentalny",
+    "explanation": "wielki, imponujący, monumentalny",
+    "example": "Monumentalny pomnik zdobi centrum miasta."
+  },
+  {
+    "word": "majestatyczny",
+    "explanation": "dostojny, wzniosły",
+    "example": "Ma jestatyczny pałac robił ogromne wrażenie."
+  },
+  {
+    "word": "emisariusz",
+    "explanation": "posłaniec, przedstawiciel z misją dyplomatyczną",
+    "example": "Emisariusz dostarczył ważną wiadomość królowi."
+  },
+  {
+    "word": "atypowy",
+    "explanation": "nietypowy, niepasujący do ogólnych wzorców",
+    "example": "Jego zachowanie było bardzo atypowe dla tej sytuacji."
+  },
+  {
+    "word": "preludium",
+    "explanation": "wstęp, zapowiedź czegoś ważnego",
+    "example": "Preludium do koncertu wprowadziło publiczność w nastrój."
+  },
+  {
+    "word": "stupor",
+    "explanation": "stan osłupienia, zaskoczenia lub szoku",
+    "example": "Po wiadomości zapanował stupor wśród obecnych."
+  },
+   {
+    "word": "plugawy",
+    "explanation": "brudny, nieczysty, moralnie zepsuty",
+    "example": "Plugawy czyn został potępiony przez społeczność."
+  },
+  {
+    "word": "etos",
+    "explanation": "zespół wartości i zasad moralnych charakterystycznych dla danej grupy",
+    "example": "Etos pracy jest ważny dla sukcesu zespołu."
+  },
+  {
+    "word": "konformista",
+    "explanation": "osoba dostosowująca się do panujących norm i opinii",
+    "example": "Był konformistą, nigdy nie kwestionował zasad."
+  },
+  {
+    "word": "nonkonformista",
+    "explanation": "osoba odrzucająca powszechne normy i zasady",
+    "example": "Nonkonformista często bywał niezrozumiany przez innych."
+  },
+  {
+    "word": "konfucjanizm",
+    "explanation": "filozofia i system etyczny oparty na naukach Konfucjusza",
+    "example": "Konfucjanizm kładzie nacisk na moralność i hierarchię społeczną."
+  },
+  {
+    "word": "immanentny",
+    "explanation": "wrodzony, nieodłączny, tkwiący wewnątrz czegoś",
+    "example": "Piękno natury jest immanentne w jej różnorodności."
+  },
+  {
+    "word": "beletrystyka",
+    "explanation": "literatura piękna, utwory literackie o wartości artystycznej",
+    "example": "Beletrystyka obejmuje powieści, opowiadania i poezję."
+  },
+  {
+    "word": "dyletant",
+    "explanation": "osoba zajmująca się czymś powierzchownie, bez profesjonalizmu",
+    "example": "Jako dyletant nie znał szczegółów tematu."
+  },
+  {
+    "word": "ascetyczny",
+    "explanation": "charakteryzujący się wyrzeczeniami i surowością w życiu",
+    "example": "Życie ascetyczne wymaga rezygnacji z przyjemności."
+  },
+  {
+    "word": "entropia",
+    "explanation": "miara nieuporządkowania lub chaosu w systemie",
+    "example": "W fizyce entropia rośnie wraz z rozpraszaniem energii."
+  },
+  {
+    "word": "malkontent",
+    "explanation": "osoba stale narzekająca i niezadowolona",
+    "example": "Malkontent zawsze znajdzie coś, do czego może się przyczepić."
+  },
+  {
+    "word": "didaskalia",
+    "explanation": "wskazówki reżyserskie i sceniczne w tekście teatralnym",
+    "example": "Didaskalia pomagają aktorom zrozumieć kontekst sceny."
+  },
+  {
+    "word": "neurotyczny",
+    "explanation": "osoba skłonna do lęków i nadmiernej troski",
+    "example": "Jego neurotyczne zachowanie utrudniało codzienne życie."
+  },
+  {
+    "word": "niefrasobliwy",
+    "explanation": "beztroski, nieprzejmujący się konsekwencjami",
+    "example": "Niefrasobliwy młodzieniec ignorował zasady bezpieczeństwa."
+  },
+  {
+    "word": "kurtuazja",
+    "explanation": "uprzejmość i takt w zachowaniu wobec innych",
+    "example": "Kurtuazja była ceniona na dworach królewskich."
+  },
+  {
+    "word": "estyma",
+    "explanation": "szacunek, poważanie",
+    "example": "Zdobył estymę wśród kolegów dzięki swojej uczciwości."
+  },
+  {
+    "word": "mizofonia",
+    "explanation": "nadwrażliwość na określone dźwięki powodująca irytację",
+    "example": "Mizofonia sprawia, że hałas jedzenia jest dla niej nie do zniesienia."
+  },
+  {
+    "word": "kontaminacja",
+    "explanation": "zanieczyszczenie lub pomieszanie, np. językowe",
+    "example": "W języku potocznym zdarzają się kontaminacje wyrażeń."
+  },
+    {
+    "word": "transcendentalny",
+    "explanation": "dotyczący tego, co przekracza doświadczenie zmysłowe",
+    "example": "Filozofia transcendentalna bada warunki możliwości poznania."
+  },
+  {
+    "word": "pretensjonalny",
+    "explanation": "udający ważnego, przeintelektualizowany",
+    "example": "Jego wypowiedzi były zbyt pretensjonalne i męczące."
+  },
+  {
+    "word": "małostkowy",
+    "explanation": "drobiazgowy, skąpy w myśleniu lub uczuciach",
+    "example": "Małostkowy człowiek często nie dostrzega większego obrazu."
+  },
+  {
+    "word": "refugium",
+    "explanation": "miejsce schronienia lub bezpieczeństwa",
+    "example": "Dom był dla niej refugium po ciężkim dniu."
+  },
+  {
+    "word": "objęcia Morfeusza",
+    "explanation": "poetyckie określenie snu lub odpoczynku",
+    "example": "Po całym dniu pracy marzył tylko o objęciach Morfeusza."
+  },
+  {
+    "word": "ekscentryk",
+    "explanation": "osoba wyróżniająca się nietypowym zachowaniem",
+    "example": "Ekscentryk często przyciągał uwagę swoim strojem."
+  },
+  {
+    "word": "proletariusz",
+    "explanation": "członek najniższej klasy społecznej, pracujący fizycznie",
+    "example": "Proletariusze walczyli o lepsze warunki pracy."
+  },
+  {
+    "word": "szelmowski",
+    "explanation": "charakterystyczny dla sprytnego, nieco nieuczciwego człowieka",
+    "example": "Miał szelmowski uśmiech, który zjednywał mu ludzi."
+  },
+  {
+    "word": "rwetes",
+    "explanation": "głośny hałas, zamieszanie",
+    "example": "Na rynku zrobił się rwetes po ogłoszeniu złych wiadomości."
+  },
+  {
+    "word": "transcendencja",
+    "explanation": "stan lub cecha przekraczania granic doświadczenia",
+    "example": "Transcendencja jest często tematem filozoficznych rozważań."
+  },
+    {
+    "word": "demagogia",
+    "explanation": "manipulowanie opinią publiczną poprzez emocje i populistyczne hasła",
+    "example": "Polityk stosował demagogię, by zdobyć poparcie wyborców."
+  },
+  {
+    "word": "matriarchat",
+    "explanation": "system społeczny, w którym dominującą rolę odgrywają kobiety",
+    "example": "W niektórych kulturach matriarchat decydował o podziale władzy."
+  },
+  {
+    "word": "polaryzować",
+    "explanation": "dzielić na przeciwstawne grupy lub poglądy",
+    "example": "Debata polityczna silnie polaryzowała społeczeństwo."
+  },
+  {
+    "word": "determinanta",
+    "explanation": "czynnik decydujący o czymś, główna przyczyna",
+    "example": "Determinanta sukcesu w tym projekcie była dobra organizacja."
+  },
+  {
+    "word": "suwerenność",
+    "explanation": "niezależność i samodzielność w podejmowaniu decyzji",
+    "example": "Państwo walczyło o swoją suwerenność po latach okupacji."
+  },
+  {
+    "word": "ancestor",
+    "explanation": "przodek, osoba z wcześniejszego pokolenia",
+    "example": "Ancestor był dla niego źródłem rodzinnej dumy."
+  },
+  {
+    "word": "homeopatia",
+    "explanation": "metoda leczenia polegająca na stosowaniu bardzo rozcieńczonych substancji",
+    "example": "Homeopatia jest kontrowersyjną formą terapii."
+  },
+  {
+    "word": "matuzalem",
+    "explanation": "bardzo stary człowiek, symbol długowieczności",
+    "example": "Nazywano go matuzalemem ze względu na jego wiek."
+  },
+  {
+    "word": "nobliwy",
+    "explanation": "szlachetny, dystyngowany",
+    "example": "Jego nobliwy sposób bycia budził szacunek."
+  },
+  {
+    "word": "minoderia",
+    "explanation": "nadmierne dbanie o swój wygląd i modę",
+    "example": "Minoderia nie zawsze idzie w parze z inteligencją."
+  },
+    {
+    "word": "onegdaj",
+    "explanation": "w przeszłości, dawno temu",
+    "example": "Onegdaj miejsce to było zupełnie inne."
+  },
+  {
+    "word": "bunczuczny",
+    "explanation": "agresywny, zadziorny, pełen buntu",
+    "example": "Jego bunczuczny charakter często prowadził do konfliktów."
+  },
+  {
+    "word": "inwektywa",
+    "explanation": "ostra, obraźliwa wypowiedź",
+    "example": "W dyskusji padły inwektywy, które zaogniły sytuację."
+  },
+  {
+    "word": "hegemonia",
+    "explanation": "dominacja jednego państwa lub grupy nad innymi",
+    "example": "Hegemonia tego państwa w regionie była niezaprzeczalna."
+  },
+  {
+    "word": "ubermench",
+    "explanation": "ideał człowieka doskonałego, przewyższającego innych (z filozofii Nietzschego)",
+    "example": "Nietzsche opisywał Übermensch jako przyszłego bohatera."
+  },
+  {
+    "word": "maluczki",
+    "explanation": "mały, drobny, nieistotny",
+    "example": "Maluczki problem z czasem przerodził się w poważną sprawę."
+  },
+  {
+    "word": "dekadencki",
+    "explanation": "charakteryzujący się upadkiem wartości i zepsuciem",
+    "example": "Dekadencki styl życia prowadził do moralnego rozkładu."
+  },
+  {
+    "word": "skandować",
+    "explanation": "głośno powtarzać hasła lub okrzyki",
+    "example": "Tłum skandował nazwisko swojego lidera."
+  },
+  {
+    "word": "deprymować",
+    "explanation": "zniechęcać, demotywować",
+    "example": "Krytyka deprymowała młodych artystów."
+  },
+  {
+    "word": "hochsztapler",
+    "explanation": "oszust, osoba udająca kogoś innego lub posiadająca fałszywe kwalifikacje",
+    "example": "Okazał się hochsztaplerem, który wyłudzał pieniądze."
+  },
+    {
+    "word": "proweniencja",
+    "explanation": "pochodzenie, źródło czegoś, zwłaszcza dzieła sztuki lub osoby",
+    "example": "Proweniencja obrazu została dokładnie zbadana przez ekspertów."
+  },
+  {
+    "word": "skonstatować",
+    "explanation": "stwierdzić, zauważyć",
+    "example": "Po analizie raportu można skonstatować, że wyniki są zadowalające."
+  },
+  {
+    "word": "pertraktacje",
+    "explanation": "negocjacje, rozmowy w celu osiągnięcia porozumienia",
+    "example": "Pertraktacje między państwami trwały kilka miesięcy."
+  },
+  {
+    "word": "purytanin",
+    "explanation": "osoba o surowych, często przesadnie moralistycznych zasadach",
+    "example": "Był purytaninem, który potępiał wszelkie przejawy rozrywki."
+  },
+  {
+    "word": "kubizm",
+    "explanation": "kierunek w sztuce, charakteryzujący się geometrycznym przedstawianiem form",
+    "example": "Obraz ten jest przykładem kubizmu z początku XX wieku."
+  },
+  {
+    "word": "opilstwo",
+    "explanation": "nadmierne spożywanie alkoholu, pijaństwo",
+    "example": "Opilstwo często prowadzi do problemów zdrowotnych i społecznych."
+  },
+  {
+    "word": "dionizyjski",
+    "explanation": "związany z Dionizosem, oznacza ekstrawagancki, dziki, emocjonalny",
+    "example": "Jego zachowanie miało charakter dionizyjski, pełen szaleństwa i radości."
+  },
+  {
+    "word": "ekstermizm",
+    "explanation": "skrajne, często agresywne poglądy lub działania",
+    "example": "Ekstremizm polityczny prowadzi do destabilizacji społeczeństwa."
+  },
+  {
+    "word": "ablucja",
+    "explanation": "rytualne oczyszczenie, mycie się w celach religijnych lub higienicznych",
+    "example": "Przed modlitwą wykonał ablucję."
+  },
+  {
+    "word": "aliant",
+    "explanation": "sojusznik, partner w koalicji",
+    "example": "Alianci podczas wojny współpracowali przeciwko wspólnemu wrogowi."
+  },
+   {
+    "word": "korpulentny",
+    "explanation": "osoba o dużej, pełnej posturze, gruba",
+    "example": "Mężczyzna był korpulentny, ale bardzo energiczny."
+  },
+  {
+    "word": "dywersyfikacja",
+    "explanation": "zróżnicowanie, wprowadzenie różnorodności, np. w inwestycjach lub produkcji",
+    "example": "Firma zdecydowała się na dywersyfikację swoich usług."
+  },
+  {
+    "word": "apraksja",
+    "explanation": "zaburzenie zdolności wykonywania celowych ruchów pomimo braku uszkodzenia mięśni lub czucia",
+    "example": "Pacjent cierpiał na apraksję, nie potrafił poprawnie wykonywać prostych czynności."
+  },
+  {
+    "word": "erystyka",
+    "explanation": "sztuka prowadzenia sporu, argumentowania, często z nastawieniem na zwycięstwo, niekoniecznie prawdę",
+    "example": "Jego erystyka była bardzo przekonująca, choć nie zawsze uczciwa."
+  },
+  {
+    "word": "liryczny",
+    "explanation": "odnoszący się do liryki, wyrażający emocje, uczucia",
+    "example": "Wiersz był pełen lirycznych obrazów i subtelnych emocji."
+  },
+  {
+    "word": "c'est la vie",
+    "explanation": "francuskie wyrażenie oznaczające 'takie jest życie', akceptacja losu",
+    "example": "Straciłem pracę, ale cóż, c'est la vie."
+  },
+  {
+    "word": "dychotomia",
+    "explanation": "podział na dwie przeciwstawne części lub grupy",
+    "example": "Dychotomia między dobrem a złem jest często tematem filozoficznych dyskusji."
+  },
+    {
+    "word": "Piewca",
+    "explanation": "Osoba wychwalająca coś lub kogoś w mowie, piśmie lub śpiewie",
+    "example": "Był piewcą piękna natury i ludowej tradycji."
+  },
+  {
+    "word": "Errata",
+    "explanation": "Wykaz błędów i ich poprawek w wydrukowanym tekście",
+    "example": "Do książki dołączono erratę z poprawkami literówek."
+  },
+  {
+    "word": "Enklawa",
+    "explanation": "Obszar otoczony terytorium o innym charakterze lub należący do innego państwa",
+    "example": "Mała wieś stała się enklawą spokoju w zatłoczonym mieście."
+  },
+  {
+    "word": "Protoplasta",
+    "explanation": "Pierwszy przodek danego rodu lub twórca jakiegoś nurtu, idei",
+    "example": "Uchodził za protoplastę nowoczesnej filozofii politycznej."
+  },
+  {
+    "word": "Paternalistyczny",
+    "explanation": "Oznaczający postawę opiekuńczą, często połączoną z ograniczaniem samodzielności innych",
+    "example": "Szef miał paternalistyczne podejście do pracowników, co nie wszystkim odpowiadało."
+  },
+  {
+    "word": "Awangardowy",
+    "explanation": "Nowatorski, wyprzedzający epokę, łamiący schematy",
+    "example": "Jego styl malarski był wyjątkowo awangardowy jak na tamte czasy."
+  },
+  {
+    "word": "Indoktrynować",
+    "explanation": "Narzucać komuś określone poglądy lub ideologię w sposób systematyczny",
+    "example": "Reżim próbował indoktrynować młodzież poprzez edukację."
+  },
+  {
+    "word": "Antypody",
+    "explanation": "Miejsca położone po przeciwnej stronie kuli ziemskiej",
+    "example": "Australia bywa nazywana antypodami Europy."
+  },
+  {
+    "word": "Oniryczny",
+    "explanation": "Mający charakter snu, marzenia sennego",
+    "example": "Film miał oniryczny, nieco surrealistyczny klimat."
+  },
   {
     "word": "Scheda",
     "explanation": "Spadek, dziedzictwo po kimś",
     "example": "Przejął schedę po swoim mistrzu."
   },
-    {
-    "word": "Didasdupkalia",
+  {
+    "word": "Didaskalia",
     "explanation": "Wskazówki autora dramatu dotyczące gry aktorskiej lub scenografii",
     "example": "Didaskalia precyzyjnie opisywały nastrój sceny."
   },
-    {
+  {
+    "word": "Kierat",
+    "explanation": "Uciążliwa, monotonna praca lub sytuacja bez wyjścia",
+    "example": "Czuł się uwięziony w codziennym kieracie obowiązków."
+  },
+  {
     "word": "Samuraj",
     "explanation": "Członek japońskiej warstwy wojowników, kierujący się kodeksem honorowym",
     "example": "Samuraj był wierny swojemu panu aż do śmierci."
   },
+  {
+    "word": "Czeladnik",
+    "explanation": "Rzemieślnik uczący się zawodu u mistrza po zakończeniu terminowania",
+    "example": "Czeladnik doskonalił swoje umiejętności w warsztacie."
+  },
+  {
+    "word": "Ambaras",
+    "explanation": "Kłopotliwa, niezręczna sytuacja",
+    "example": "Spóźnienie wprawiło go w niemały ambaras."
+  },
+  {
+    "word": "Liminalny",
+    "explanation": "Dotyczący stanu przejściowego pomiędzy dwiema fazami",
+    "example": "Bohater znajdował się w liminalnym momencie życia."
+  },
+  {
+    "word": "Ornament",
+    "explanation": "Element dekoracyjny o funkcji zdobniczej",
+    "example": "Fasada była bogata w roślinne ornamenty."
+  },
+  {
+    "word": "Demagog",
+    "explanation": "Osoba manipulująca opinią publiczną poprzez emocje i populistyczne hasła",
+    "example": "Demagog zdobywał poparcie obietnicami bez pokrycia."
+  },
+  {
+  "word": "Lukratywny",
+  "explanation": "Przynoszący duże zyski, bardzo opłacalny",
+  "example": "Otrzymał lukratywną ofertę pracy za granicą."
+},
+  {
+  "word": "Imponderabilia",
+  "explanation": "Trudno uchwytne, niematerialne czynniki mające istotne znaczenie",
+  "example": "W tej decyzji liczyły się nie fakty, lecz imponderabilia."
+},
+  {
+  "word": "Koalicja",
+  "explanation": "Porozumienie osób, grup lub państw zawarte w celu realizacji wspólnych interesów",
+  "example": "Partie utworzyły koalicję, aby zdobyć większość w parlamencie."
+},
+  {
+  "word": "Kompromat",
+  "explanation": "Materiały lub informacje kompromitujące kogoś, używane do szantażu lub dyskredytacji",
+  "example": "Polityk obawiał się ujawnienia kompromatu z przeszłości."
+},
+  {
+  "word": "Kuglarz",
+  "explanation": "Osoba popisująca się zręcznością, sztuczkami lub żonglerką; dawniej także oszust lub trickster",
+  "example": "Na rynku występował kuglarz przyciągający tłumy widzów."
+},
+  {
+  "word": "Adwersarz",
+  "explanation": "Przeciwnik w sporze, dyskusji lub walce",
+  "example": "Adwersarz starał się podważyć wszystkie jego argumenty."
+},
     {
+    "word": "Heurystyka",
+    "explanation": "Zbiór uproszczonych metod i reguł ułatwiających rozwiązywanie problemów i podejmowanie decyzji",
+    "example": "Zastosował heurystykę, aby szybko znaleźć rozwiązanie zadania."
+  },
+  {
+    "word": "Etymologia",
+    "explanation": "Nauka badająca pochodzenie i historię wyrazów",
+    "example": "Etymologia tego słowa sięga języka łacińskiego."
+  },
+  {
+    "word": "Pejoratywny",
+    "explanation": "Mający negatywne, pogardliwe zabarwienie",
+    "example": "To określenie ma pejoratywny charakter."
+  },
+  {
+    "word": "Ablucje",
+    "explanation": "Obrzędowe lub codzienne czynności związane z myciem ciała",
+    "example": "Poranne ablucje zajęły mu kilka minut."
+  },
+  {
+    "word": "Palatyn",
+    "explanation": "Wysoki urzędnik dworski lub namiestnik w dawnych państwach",
+    "example": "Palatyn sprawował władzę w imieniu monarchy."
+  },
+  {
+    "word": "Scheda",
+    "explanation": "Dziedzictwo, majątek lub tradycja przejęta po przodkach",
+    "example": "Otrzymał po dziadku cenną schedę."
+  },
+  {
     "word": "Kierat",
-    "explanation": "UciążliwaDUOA, monotonna praca lub sytuacja bez wyjścia",
-    "example": "Czuł się uwięziony w codziennym kieracie obowiązków."
+    "explanation": "Ciężka, monotonna praca wymagająca dużego wysiłku",
+    "example": "Codzienny kierat obowiązków go przytłaczał."
   },
-    {
-    "word": "Oniryczny",
-    "explanation": "Mający charakter snu, marzenia sennego",
-    "example": "Film miał oniryczny, nieco surrealistyczny klimat."
+  {
+    "word": "Zwaśniony",
+    "explanation": "Będący w konflikcie, skłócony",
+    "example": "Zwaśnione rody od lat unikały kontaktu."
   },
-    {
-    "word": "Indoktrynować",
-    "explanation": "Narzucać komuś określone poglądy lub ideologię w sposób systematyczny",
-    "example": "Reżim próbował indoktrynować młodzież poprzez edukację."
+  {
+    "word": "Emfaza",
+    "explanation": "Przesadne podkreślanie czegoś, patetyczny sposób mówienia",
+    "example": "Mówił z taką emfazą, że trudno było go traktować poważnie."
   },
-  {"word": "Apoteoza", "explanation": "Wywyższenie czegoś do rangi boskiej lub najwyższej", "example": "Jego przemówienie było apoteozą wolności."}
-  
+  {
+    "word": "Stryczek",
+    "explanation": "Pętla ze sznura używana do wieszania",
+    "example": "W filmie pojawił się symboliczny stryczek."
+  },
+  {
+    "word": "Paroksyzm",
+    "explanation": "Nagły, gwałtowny wybuch emocji lub objawów",
+    "example": "Dostał paroksyzmu śmiechu."
+  },
+  {
+    "word": "Rewidować",
+    "explanation": "Sprawdzać, kontrolować lub ponownie oceniać",
+    "example": "Policja zaczęła rewidować bagaże pasażerów."
+  },
+  {
+    "word": "Koniunktura",
+    "explanation": "Ogólna sytuacja gospodarcza lub sprzyjające okoliczności",
+    "example": "Dobra koniunktura sprzyja inwestycjom."
+  },
+  {
+    "word": "Egzegeza",
+    "explanation": "Szczegółowa analiza i interpretacja tekstu, zwłaszcza religijnego",
+    "example": "Zajmował się egzegezą dawnych ksiąg."
+  },
+  {
+    "word": "Być radym",
+    "explanation": "Być zadowolonym, chętnym lub skłonnym do czegoś",
+    "example": "Był radym pomóc przyjacielowi."
+  },
+  {
+    "word": "Posępny",
+    "explanation": "Ponury, smutny, przygnębiający",
+    "example": "Miał posępny wyraz twarzy."
+  },
+  {
+    "word": "Koteria",
+    "explanation": "Zamknięta grupa ludzi działających dla własnych korzyści",
+    "example": "W firmie panowała silna koteria."
+  },
+  {
+    "word": "Nepotyzm",
+    "explanation": "Faworyzowanie krewnych przy obsadzaniu stanowisk",
+    "example": "Oskarżono go o nepotyzm."
+  },
+  {
+    "word": "Demiurg",
+    "explanation": "Twórca, kreator rzeczywistości lub świata",
+    "example": "Artysta był postrzegany jako demiurg swojej epoki."
+  },
+  {
+    "word": "Demagogia",
+    "explanation": "Oddziaływanie na ludzi poprzez manipulację emocjami",
+    "example": "Jego przemówienie było czystą demagogią."
+  },
+  {
+    "word": "Antyteza",
+    "explanation": "Zestawienie przeciwstawnych pojęć lub idei",
+    "example": "To zdanie opiera się na antytezie."
+  },
+  {
+    "word": "Konformizm",
+    "explanation": "Dostosowywanie się do norm i opinii większości",
+    "example": "Jego konformizm nie pozwalał mu wyrazić własnego zdania."
+  },
+  {
+    "word": "Nonkonformizm",
+    "explanation": "Postawa sprzeciwu wobec ogólnie przyjętych norm",
+    "example": "Był znany ze swojego nonkonformizmu."
+  },
+  {
+    "word": "Epikureizm",
+    "explanation": "Filozofia uznająca przyjemność i brak cierpienia za najwyższe dobro",
+    "example": "Kierował się zasadami epikureizmu."
+  },
+  {
+    "word": "Dekonspiracja",
+    "explanation": "Ujawnienie tajemnicy lub ukrytej działalności",
+    "example": "Groziła im dekonspiracja."
+  },
+  {
+    "word": "Egzaltacja",
+    "explanation": "Przesadne uniesienie emocjonalne",
+    "example": "Jej egzaltacja była widoczna w każdym geście."
+  },
+  {
+    "word": "Obrazoborcze",
+    "explanation": "Łamiące utarte schematy lub tradycje",
+    "example": "To było obrazoborcze podejście do sztuki."
+  },
+  {
+    "word": "Patosowa hagiografia",
+    "explanation": "Przesadnie idealizujący opis czyjegoś życia",
+    "example": "Książka była patosową hagiografią bohatera."
+  },
+  {
+    "word": "Szkaradne",
+    "explanation": "Bardzo brzydkie, odrażające",
+    "example": "Szkaradne budynki szpeciły krajobraz."
+  },
+  {
+    "word": "Plugawe",
+    "explanation": "Brudne moralnie, wulgarne",
+    "example": "Używał plugawych słów."
+  },
+  {
+    "word": "Ordynarne",
+    "explanation": "Prostackie, wulgarne",
+    "example": "To było bardzo ordynarne zachowanie."
+  },
+  {
+    "word": "Kapryśny",
+    "explanation": "Zmienny w nastrojach i decyzjach",
+    "example": "Był kapryśny i trudny we współpracy."
+  },
+  {
+    "word": "Koteryjka",
+    "explanation": "Mała, zamknięta grupa osób działających wspólnie",
+    "example": "W klasie powstała koteryjka."
+  },
+  {
+    "word": "Socjeta",
+    "explanation": "Wyższe warstwy społeczne, elity",
+    "example": "Na balu pojawiła się cała socjeta."
+  },
+  {
+    "word": "Zegzemplifikować",
+    "explanation": "Przedstawić coś na przykładzie",
+    "example": "Postanowił zegzemplifikować swoją teorię."
+  },
+  {
+    "word": "Grubiański",
+    "explanation": "Niegrzeczny, prostacki",
+    "example": "Jego grubiańskie zachowanie wszystkich oburzyło."
+  },
+  {
+    "word": "Impertynencki",
+    "explanation": "Zuchwały, bezczelny",
+    "example": "Zadał impertynenckie pytanie."
+  },
+  {
+    "word": "Erystyka",
+    "explanation": "Sztuka prowadzenia sporów w celu wygrania, niekoniecznie odkrycia prawdy",
+    "example": "Opanował erystykę do perfekcji."
+  },
+  {
+    "word": "Nonszalancki",
+    "explanation": "Swobodny, lekceważący, często elegancki",
+    "example": "Miał nonszalancki styl bycia."
+  },
+  {
+    "word": "Rachityczny",
+    "explanation": "Słaby, niedorozwinięty",
+    "example": "Roślina była rachityczna."
+  },
+  {
+    "word": "Wydeklamować",
+    "explanation": "Wygłosić coś uroczyście i z przesadą",
+    "example": "Wydeklamował wiersz na scenie."
+  },
+  {
+    "word": "Antyklerykał",
+    "explanation": "Osoba sprzeciwiająca się wpływom duchowieństwa",
+    "example": "Znany był jako antyklerykał."
+  },
+  {
+    "word": "Tyrada",
+    "explanation": "Długi, pełen emocji monolog",
+    "example": "Wygłosił tyradę przeciwko systemowi."
+  },
+  {
+    "word": "Rezyliencja",
+    "explanation": "Zdolność do adaptacji i radzenia sobie z trudnościami",
+    "example": "Rezyliencja pomaga przetrwać kryzysy."
+  },
+  {
+    "word": "Spolegliwy",
+    "explanation": "Godny zaufania, rzetelny",
+    "example": "To bardzo spolegliwy pracownik."
+  },
+  [
+  {
+    "word": "Ordynarny",
+    "explanation": "Prostacki, wulgarny, pozbawiony dobrych manier",
+    "example": "Jego ordynarne zachowanie oburzyło wszystkich przy stole."
+  },
+  {
+    "word": "Licujący",
+    "explanation": "Odpowiedni, zgodny z czymś, harmonizujący z normami lub zasadami",
+    "example": "To działanie nie jest licujące z jego funkcją publiczną."
+  },
+  {
+    "word": "Tumult",
+    "explanation": "Głośne zamieszanie, chaos, zgiełk",
+    "example": "Na sali powstał tumult po ogłoszeniu wyników."
+  },
+  {
+    "word": "Kędzierzawy",
+    "explanation": "Mający kręcone, skręcone włosy lub strukturę przypominającą loki",
+    "example": "Chłopiec miał kędzierzawe włosy i szeroki uśmiech."
+  },
+  {
+    "word": "Symonia",
+    "explanation": "Sprzedawanie lub kupowanie stanowisk kościelnych i godności duchownych",
+    "example": "W średniowieczu symonia była poważnym problemem w Kościele."
+  },
+  {
+    "word": "Proletariusz",
+    "explanation": "Osoba należąca do klasy robotniczej, niemająca własnych środków produkcji",
+    "example": "Proletariusze pracowali w fabrykach za niskie wynagrodzenie."
+  },
+  {
+    "word": "Ekumenizm",
+    "explanation": "Dążenie do jedności i współpracy między różnymi wyznaniami chrześcijańskimi",
+    "example": "Ekumenizm promuje dialog między Kościołami."
+  },
+  {
+    "word": "Emfaza",
+    "explanation": "Przesadne podkreślenie czegoś w mowie lub piśmie",
+    "example": "Mówił z emfazą, chcąc przekonać słuchaczy."
+  },
+  {
+    "word": "Pivot",
+    "explanation": "Punkt zwrotny lub zmiana kierunku działania; także pozycja w sporcie zespołowym",
+    "example": "Firma zrobiła pivot i zaczęła działać w nowej branży."
+  },
+  {
+    "word": "Probierz",
+    "explanation": "Kryterium lub miara pozwalająca ocenić coś",
+    "example": "Jego reakcja była probierzem lojalności zespołu."
+  },
+  {
+    "word": "Egzaltacja",
+    "explanation": "Przesadne, emocjonalne uniesienie lub wzniosłość zachowania",
+    "example": "Jej egzaltacja była widoczna podczas przemówienia."
+  }
+]
+  {
+    "word": "Biesy",
+    "explanation": "Demony lub złe duchy w wierzeniach słowiańskich",
+    "example": "W legendach pojawiały się biesy."
+  }
+
+
 ]
